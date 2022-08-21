@@ -29,14 +29,7 @@ function pushButton1() {
          alert(res_text);
         const res = fetch(resurl);
         console.log(res);
-        liff.sendMessages([{
-            'type': 'text',
-            'text': urltext + "の代収をリクエストしました。"
-          }]).then(function() {
-            // document.getElementById('log').value += 'sendMessagesText completed\n';
-          }).catch(function(error) {
-            // document.getElementById('log').value += 'sendMessagesText()=' + error + '\n';
-          });
+
     };
 
 
