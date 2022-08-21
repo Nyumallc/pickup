@@ -25,7 +25,7 @@ function pushButton1() {
     
     let resurl=(`${REQUEST_URL}?&userid=${userid}&displayname=${displayname}&order_number=${order_numbertext}&shipping_numbertext=${shipping_numbertext}&item_count=${item_counttext}
     &package=${packagetext}&shipping_select=${shipping_selecttext}&option=${optiontext}`)
-    let res_text=(`${displayname}${urltext}已收到您的訂單`)
+    let res_text=(`${displayname}${order_number}已收到您的訂單`)
          alert(res_text);
         const res = fetch(resurl);
         console.log(res);
