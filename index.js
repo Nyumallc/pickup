@@ -23,7 +23,7 @@ function pushButton1() {
 
 
     
-    let resurl=(`${REQUEST_URL}?&userid=${userid}&displayname=${displayname}&url=${urltext}&order_number=${order_numbertext}&shipping_numbertext=${shipping_numbertext}&item_count=${item_counttext}
+    let resurl=(`${REQUEST_URL}?&userid=${userid}&displayname=${displayname}&order_number=${order_numbertext}&shipping_numbertext=${shipping_numbertext}&item_count=${item_counttext}
     &package=${packagetext}&shipping_select=${shipping_selecttext}&option=${optiontext}`)
     let res_text=(`${displayname}${urltext}已收到您的訂單`)
          alert(res_text);
@@ -46,6 +46,3 @@ function pushButton2() {
     location.href=(`https://warm-oasis-25284.herokuapp.com/mercari/${userid}`)
      
     };
-
-
-    
