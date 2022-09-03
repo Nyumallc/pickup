@@ -36,6 +36,6 @@ function pushButton1() {
 function pushButton2() {
     let user_id = document.getElementById("user_id");
     let userid = user_id.innerHTML;
-    location.href=(`https://warm-oasis-25284.herokuapp.com/mercari/${userid}`)
+    location.href=(`https://warm-oasis-25284.herokuapp.com/picup/${userid}`)
      
     };
